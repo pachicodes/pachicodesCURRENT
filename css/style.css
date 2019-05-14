@@ -4,7 +4,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #1a53ff;
+    color: ##0066cc;
 }
 
 /* Navegation */
@@ -26,7 +26,7 @@ h2 {
 }
 
 span {
-    color: #1a53ff;
+    color: #0066cc;
 
 }
 
@@ -41,7 +41,7 @@ span {
 }
 
 .projects h1 {
-    color: #1a53ff;
+    color: #0066cc;
     text-decoration: underline;
     text-transform:  uppercase;
 }
