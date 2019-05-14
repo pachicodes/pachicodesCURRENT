@@ -1,39 +1,21 @@
 body {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;  
+    font-family: 'Kodchasan', sans-serif; 
 }
 
 a {
     text-decoration: none;
-    color: #DC1717;
+    color: #1a53ff;
 }
 
 /* Navegation */
 
-.menu-container {
+
+
+/* ABOUT*/
+.about {
     background: #000;
-    width: 100%;
-    
+    color: azure;
 }
-
-.btn {
-    float: right;
-    font-size: 2em;
-    margin-right: 100px;
-    margin-top: 3px;
-}
-
-img {
-    
-    height: 50px;
-}
-
-/* INTRO*/
-
-.banner {
-    margin: 20px;
-    line-height: 2em;
-}
-
 h1 {
     font-size: 2em;
     line-height: 2em;
@@ -44,14 +26,11 @@ h2 {
 }
 
 span {
-    color: #DC1717;
+    color: #1a53ff;
 
 }
 
-.banner h3 {
-    color: #DC1717;
-    font-size: 1.5em; 
-}
+
 
 /* PROJECTS */
 
@@ -62,14 +41,13 @@ span {
 }
 
 .projects h1 {
-    color: #DC1717;
+    color: #1a53ff;
     text-decoration: underline;
     text-transform:  uppercase;
 }
 
 .projects img {
-    width: 300px;
-    height: 230px;
+    width: 30%;
     padding: 10px;
 }
 
@@ -100,10 +78,6 @@ span {
 /* FOOTER */
 footer {
     background: #000;   
-    color: #fff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    color: azure;
     text-align: center;
 }
