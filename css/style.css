@@ -3,6 +3,7 @@ body {
 }
 ul {
     list-style-type: none;
+}
 
 li a {
     text-decoration: none;
@@ -71,8 +72,12 @@ span {
 
 /* FOOTER */
 
-#contact, .full-width {
+#contact {
     background: #000;   
     color: azure;
     text-align: center;
+}
+
+.social-media li {
+    display: inline;
 }
