@@ -1,10 +1,13 @@
 body {
     font-family: 'Kodchasan', sans-serif; 
 }
+ul {
+    list-style-type: none;
 
-a {
+li a {
     text-decoration: none;
-    color: ##0066cc;
+    color: #0066cc;
+    
 }
 
 /* Navegation */
@@ -12,14 +15,14 @@ a {
 
 
 /* ABOUT*/
-.about {
+#about {
     background: #000;
     color: azure;
     text-align: center;
     padding: 20px;
 }
 
-.about img {
+#about img {
     border-radius: 50%;
 }
 h1 {
@@ -40,49 +43,35 @@ span {
 
 /* PROJECTS */
 
-.projects {
+#projects {
     display: block;
     margin-left: 10px;
     text-align: center;
 }
 
-.projects h1 {
+#projects h1 {
     color: #0066cc;
     text-decoration: underline;
     text-transform:  uppercase;
 }
 
-.projects img {
+#projects img {
     width: 30%;
     padding: 10px;
 }
 
 /* MEDIA */
 @media only screen and (max-width: 360px) {
-    .btn {
-        font-size: 1.5em;
-    }
-   
-    .banner h1 {
-        font-size: 1.5em;
-    }
-    .banner h2 {
-        font-size: 1.2em;
-    }
-    .projects {
+    #projects {
         max-width: 300px;
     }
 }
 
 
 
-
-
-
-
-
 /* FOOTER */
-footer {
+
+#contact, .full-width {
     background: #000;   
     color: azure;
     text-align: center;
