@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+        <base target="_blank">
         
     </head>
 
@@ -15,14 +16,14 @@
             <div class="pachi__nav">                
                 <nav>
                     <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">#About</a></li>
+                        <li><a href="#projects">#Projects</a></li>
+                        <li><a href="#contact">#Contact</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="pachi_hello">
-                    <a class="pachi__logo" href="#"></a><img src="img/logo.png" alt="meu-logo"></a><!--
+                    <img class="hello" src="img/logo.png" alt="meu-logo"><!--
                     --><h1 class="hello__h1">Hi there!</h1>
                     <h1 class="hello__h1">My name is <span>Pachi</span> and I am a Developer :)</h1>
                     <h3 class="hello__h3">#</h3>                        
@@ -32,7 +33,7 @@
                      
         
 
-        <div class="about">
+        <div id="about">
             <h2>About Me</h2>
             <img src="img/pachi.jpg" height="300px" alt="portrait of Pachi">
             <h3>Let's create something cool?</h3>
@@ -42,45 +43,40 @@
 
         </div>
 
-        <div class="projects">
+        <div id="projects">
             <h2 class="projects__h2">Recent Projects:</h2>
             <div class="projects_1">
-                <a href="https://pachicodes.github.io/Austen-Jubilee/" target="_blank"> <img src="img/web1.png" height="300px" alt="AustenJubilee"></a>
+                <a href="https://pachicodes.github.io/Austen-Jubilee/" target="_blank"> <img src="img/web1.png" width="300px" alt="AustenJubilee"></a>
                 <h4>Austeen Jubilee</h4>
                 <p>Pure HTML & CSS website.</p>
             </div>
             <div class="projects_2" >                
-                <a href="https://pachicodes.github.io/roguepickings/" target="_blank"> <img src="img/web2.png" height="300px" alt="RoguePickings"></a>
+                <a href="https://pachicodes.github.io/roguepickings/" target="_blank"> <img src="img/web2.png" width="300px" alt="RoguePickings"></a>
                 <h4>Rogue Pickings</h4>
                 <p>Pure HTML & CSS website.</p>
             </div>
             <div class="projects_3" > 
-                <a href="https://www.google.ca/" target="_blank"> <img src="web3.jpg" alt="Brafeh"></a>
-                <h4>Austeen Jubilee</h4>
-                <p>pure HTML & CSS website.</p>
+                <a href="https://pachicodes.github.io/nycbased/" target="_blank"> <img src="img/web3.png" width="300px" alt="nyc based page"></a>
+                <h4>NYC based</h4>
+                <p>Pure HTML & CSS website.</p>
             </div>               
               
         </div>
 
 
-        <footer class="contact">
-            <div class="social">
+        <footer id="contact">
+            <div class="full-width">
                 <h2>Let's connect!</h2>
-
-                <div class="social_hire">
-                    <h4>Hire me!</h4>
-                    <p>646-685-9338</p>
-                    <a class="email_me" href = "mailto:pachicodes@gmail.com">pachicodes@gmail.com</a> 
+                <div class="icons">
+                    <ul class="social_media">
+                        <li><a href="https://twitter.com/pachicodes"><img src="img/twitter.png" alt="Icon twitter" /></a></li>
+                        <li><a href="https://instagram.com/pachicodes"><img src="img/instagram.png" alt="Icon instagram" /></a></li>
+                        <li><a href="https://linkedin.com/in/pachicodes"><img src="img/linkedin.png" alt="Icon linkedin" /></a></li>
+                        <li><a href="https://github.com/pachicodes"><img src="img/github.png" alt="Icon github" /></a></li>
+                    </ul>
                 </div>
-
-                <ul>
-                    <li><a href="https://twitter.com/pachicodes"><img src="img/icon-twitter.png" alt="Icon twitter" /></a></li>
-                    <li><a href="https://instagram.com/pachicodes"><img src="img/icon-instagram.png" alt="Icon instagram" /></a></li>
-                    <li><a href="https://linkedin.com/in/pachicodes"><img src="img/icon-linkedin.png" alt="Icon linkedin" /></a></li>
-                    <li><a href="https://github.com/pachicodes"><img src="img/icon-github.png" alt="Icon github" /></a></li>
-                </ul>
             </div>
-            <p>Pachi Carlson 2019</p>
+            <p>Hire me! <span><a class="email_me" href = "mailto:pachicodes@gmail.com">pachicodes@gmail.com</a></span> </p>
         </footer>
 
     </body> 
