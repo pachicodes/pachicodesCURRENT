@@ -13,21 +13,20 @@
 
     <body>
         <header class="pachi">
-            <div class="pachi__nav">                
-                <nav>
-                    <ul>
-                        <li><a href="#about">#About</a></li>
-                        <li><a href="#projects">#Projects</a></li>
-                        <li><a href="#contact">#Contact</a></li>
+            <div class="pachi__header">                
+                <nav class="pachi__nav">
+                    <ul class="pachi__nav-ul">
+                        <li class="pachi__nav-li"><a href="#about">#About</a></li>
+                        <li class="pachi__nav-li"><a href="#projects">#Projects</a></li>
+                        <li class="pachi__nav-li"><a href="#contact">#Contact</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="pachi_hello">
-                    <img class="hello" src="img/logo.png" alt="meu-logo"><!--
-                    --><h1 class="hello__h1">Hi there!</h1>
-                    <h1 class="hello__h1">My name is <span>Pachi</span> and I am a Developer :)</h1>
-                    <h3 class="hello__h3">#</h3>                        
-                </div>
+            <div class="pachi__hello">
+                <h1 class="hello__h1">Hi there!</h1>
+                <h1 class="hello__h1">My name is <span>Pachi</span> and I am a Developer :)</h1>
+                <h3 class="hello__h3"><span>#</span></h3>                        
+            </div>
         </header>
 
                      
@@ -35,9 +34,9 @@
 
         <div id="about">
             <h2>About Me</h2>
-            <img src="img/pachi.jpg" height="300px" alt="portrait of Pachi">
-            <h3>Let's create something cool?</h3>
-            <p>My name is not Pachi, but that is how most people call me (or Pati if you know Portuguese).<br> I am a developer in development!<br>  
+            <img src="img/pachi.jpg" alt="portrait of Pachi">
+            <h3><em>Let's create something cool?</em></h3>
+            <p>My name is not Pachi, <br>but that is how most people call me (or Pati if you know Portuguese).<br> I am a developer in development!<br>  
             At the moment my focus is web development, but why stop there right?</p>
             <p>I am also a cat and lizard mom, a chocolate addicted and an avid reader.</p>
 
@@ -46,37 +45,36 @@
         <div id="projects">
             <h2 class="projects__h2">Recent Projects:</h2>
             <div class="projects_1">
-                <a href="https://pachicodes.github.io/Austen-Jubilee/" target="_blank"> <img src="img/web1.png" width="300px" alt="AustenJubilee"></a>
+                <a href="https://pachicodes.github.io/Austen-Jubilee/" target="_blank"> <img src="img/web1.png" alt="AustenJubilee"></a>
                 <h4>Austeen Jubilee</h4>
                 <p>Pure HTML & CSS website.</p>
             </div>
             <div class="projects_2" >                
-                <a href="https://pachicodes.github.io/roguepickings/" target="_blank"> <img src="img/web2.png" width="300px" alt="RoguePickings"></a>
+                <a href="https://pachicodes.github.io/roguepickings/" target="_blank"> <img src="img/web2.png" alt="RoguePickings"></a>
                 <h4>Rogue Pickings</h4>
                 <p>Pure HTML & CSS website.</p>
             </div>
             <div class="projects_3" > 
-                <a href="https://pachicodes.github.io/nycbased/" target="_blank"> <img src="img/web3.png" width="300px" alt="nyc based page"></a>
+                <a href="https://pachicodes.github.io/nycbased/" target="_blank"> <img src="img/web3.png" alt="nyc based page"></a>
                 <h4>NYC based</h4>
                 <p>Pure HTML & CSS website.</p>
-            </div>               
-              
+            </div>                             
         </div>
 
 
         <footer id="contact">
-            <div class="full-width">
+            <div class="social">
                 <h2>Let's connect!</h2>
-                <div class="icons">
-                    <ul class="social_media">
-                        <li><a href="https://twitter.com/pachicodes"><img src="img/twitter.png" alt="Icon twitter" /></a></li>
-                        <li><a href="https://instagram.com/pachicodes"><img src="img/instagram.png" alt="Icon instagram" /></a></li>
-                        <li><a href="https://linkedin.com/in/pachicodes"><img src="img/linkedin.png" alt="Icon linkedin" /></a></li>
-                        <li><a href="https://github.com/pachicodes"><img src="img/github.png" alt="Icon github" /></a></li>
+                <div class="social_media">
+                    <ul class="social_media__icons">
+                        <li class="social_media__li"><a href="https://twitter.com/pachicodes"><img src="img/twitter.png" alt="Icon twitter" /></a></li>
+                        <li class="social_media__li"><a href="https://instagram.com/pachicodes"><img src="img/instagram.png" alt="Icon instagram" /></a></li>
+                        <li class="social_media__li"><a href="https://linkedin.com/in/pachicodes"><img src="img/linkedin.png" alt="Icon linkedin" /></a></li>
+                        <li class="social_media__li"><a href="https://github.com/pachicodes"><img src="img/github.png" alt="Icon github" /></a></li>
                     </ul>
                 </div>
             </div>
-            <p>Hire me! <span><a class="email_me" href = "mailto:pachicodes@gmail.com">pachicodes@gmail.com</a></span> </p>
+            <p>Hire me! <br><span><a class="email_me" href = "mailto:pachicodes@gmail.com">pachicodes@gmail.com</a></span> </p>
         </footer>
 
     </body> 
