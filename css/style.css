@@ -33,6 +33,7 @@ span {
 
 }
 
+
 /* Navegation */
 nav {
     float: right; 
@@ -70,9 +71,7 @@ nav {
 /* PROJECTS */
 
 #projects {
-    display: inline-block;
-    margin-left: 10px;
-    text-align: center;
+   text-align: center;
 }
 
 #projects h1 {
@@ -92,14 +91,18 @@ nav {
     background: #000;   
     color: azure;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .social_media__li{
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 80px; 
+    padding: 40px; 
+}
+
+.social_media__icons {
+    padding-left: 0;
 }
 
 /* MEDIA */
