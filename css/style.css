@@ -4,6 +4,7 @@ body {
     font-size: 1.5em;
     line-height: 1em; 
 }
+
 ul {
     list-style-type: none;
     margin: auto;
@@ -11,8 +12,7 @@ ul {
 
 li a {
     text-decoration: none;
-    color: #0066cc;
-    
+    color: #0066cc;    
 }
 
 h1 {
@@ -40,22 +40,22 @@ nav {
     padding: 50px 15px;
 }
 .pachi__nav-li{
-    display: inline-block;
+    display: block;
     text-transform: uppercase;
     text-decoration: none;
     font-size:  18px;
-    padding-left: 80px; 
+    padding-left: 10px; 
 }
 
-a:hover { 
+.pachi__nav-li a:hover { 
     background-color: rgb(230, 126, 143);
   }
 
 /* HEAD */
 
 .pachi__hello {
-    padding: 20px;
-    margin: 40px;
+    padding: 10px;
+    margin: 20px;
 }
 
 
@@ -111,5 +111,9 @@ a:hover {
 }
 .email_me {
     color: #fff;
+}
+
+.projects_1, .projects_2, .projects_3  {
+    border: 1px solid #000; 
 }
 
