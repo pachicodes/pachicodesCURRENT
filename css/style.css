@@ -1,5 +1,8 @@
+/* BODY */
 body {
-    font-family: 'Kodchasan', sans-serif; 
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 1.5em;
+    line-height: 2em; 
 }
 ul {
     list-style-type: none;
@@ -11,15 +14,33 @@ li a {
     
 }
 
+h1 {
+    font-size: 2em;
+    line-height: 2em;
+}
+
+h2 {    
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: azure;
+}
+
+span {
+    color: #0066cc;
+
+}
+
+
 /* Navegation */
 nav {
     float: right; 
     padding: 50px 15px;
 }
-nav ul li{
+.pachi__nav-li{
     display: inline-block;
-}
-nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size:  18px;
@@ -27,12 +48,11 @@ nav ul li a {
 }
 
 /* HEAD */
-.hello{
-    clear: both;
-    display: block;
-    width: 100px;
-}
 
+.pachi__hello {
+    padding: 20px;
+    margin: 40px;
+}
 
 
 /* ABOUT*/
@@ -46,28 +66,12 @@ nav ul li a {
 #about img {
     border-radius: 50%;
 }
-h1 {
-    font-size: 2em;
-    line-height: 2em;
-}
-
-h2 {    
-    font-size: 1.5em;
-}
-
-span {
-    color: #0066cc;
-
-}
-
 
 
 /* PROJECTS */
 
 #projects {
-    display: inline-block;
-    margin-left: 10px;
-    text-align: center;
+   text-align: center;
 }
 
 #projects h1 {
@@ -81,29 +85,56 @@ span {
     padding: 10px;
 }
 
-/* MEDIA */
-@media only screen and (max-width: 360px) {
-    #projects {
-        max-width: 300px;
-    }
-}
-
-
-
 /* FOOTER */
 
 #contact {
     background: #000;   
     color: azure;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
-.icons ul li{
+.social_media__li{
     display: inline-block;
-}
-.icons ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 80px; 
+    padding: 40px; 
 }
+
+.social_media__icons {
+    padding-left: 0;
+}
+.email_me {
+    color: #fff;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 360px) {
+    #projects {
+        max-width: 300px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    li {
+        display: block;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 1.75em;
+        line-height: 2em;
+    }
+    
+    h2 {    
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+          
+}
+
