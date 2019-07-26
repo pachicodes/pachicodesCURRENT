@@ -2,10 +2,11 @@
 body {
     font-family: 'Kodchasan', sans-serif;
     font-size: 1.5em;
-    line-height: 2em; 
+    line-height: 1em; 
 }
 ul {
     list-style-type: none;
+    margin: auto;
 }
 
 li a {
@@ -15,22 +16,21 @@ li a {
 }
 
 h1 {
-    font-size: 2em;
-    line-height: 2em;
+    font-size: 1em;
+    line-height: 1em;
 }
 
-h2 {    
-    font-size: 1.75em;
+h2, p {    
+    font-size: 0.75em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 0.60em;
     color: azure;
 }
 
 span {
     color: #0066cc;
-
 }
 
 
@@ -98,7 +98,8 @@ nav {
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 40px; 
+    width: 40%;
+    
 }
 
 .social_media__icons {
@@ -106,35 +107,5 @@ nav {
 }
 .email_me {
     color: #fff;
-}
-
-/* MEDIA */
-@media only screen and (max-width: 360px) {
-    #projects {
-        max-width: 300px;
-    }
-    h1 {
-        font-size: 36px;
-    }
-    li {
-        display: block;
-        padding: 5px;
-    }
-    h1 {
-        font-size: 1.75em;
-        line-height: 2em;
-    }
-    
-    h2 {    
-        font-size: 1.5em;
-    }
-    
-    h3 {
-        font-size: 1em;
-    }
-    p{
-        font-size: 0.8em;
-    }
-          
 }
 
