@@ -20,11 +20,11 @@ h1 {
     line-height: 1em;
 }
 
-h2, p {    
+h2 {    
     font-size: 0.75em;
 }
 
-h3 {
+h3, p {
     font-size: 0.60em;
     color: azure;
 }
@@ -47,6 +47,10 @@ nav {
     padding-left: 80px; 
 }
 
+a:hover { 
+    background-color: rgb(230, 126, 143);
+  }
+
 /* HEAD */
 
 .pachi__hello {
@@ -63,8 +67,8 @@ nav {
     padding: 20px;
 }
 
-#about img {
-    border-radius: 50%;
+.about__img {
+    max-width: 300px;;
 }
 
 
