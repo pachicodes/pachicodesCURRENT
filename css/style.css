@@ -40,7 +40,7 @@ nav {
     padding: 50px 15px;
 }
 .pachi__nav-li{
-    display: block;
+    
     text-transform: uppercase;
     text-decoration: none;
     font-size:  18px;
@@ -117,3 +117,28 @@ nav {
     border: 1px solid #000; 
 }
 
+@media (min-width: 1281px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em; 
+    }
+
+    p, h3 {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    .pachi__nav-li {
+        display: inline;
+        padding: 20px;
+    }
+
+    #about {
+        max-width: 40%;
+        margin: auto;
+    }
+    
+  }
