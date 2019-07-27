@@ -2,35 +2,35 @@
 body {
     font-family: 'Kodchasan', sans-serif;
     font-size: 1.5em;
-    line-height: 2em; 
+    line-height: 1em; 
 }
+
 ul {
     list-style-type: none;
+    margin: auto;
 }
 
 li a {
     text-decoration: none;
-    color: #0066cc;
-    
+    color: #0066cc;    
 }
 
 h1 {
-    font-size: 2em;
-    line-height: 2em;
+    font-size: 1em;
+    line-height: 1em;
 }
 
 h2 {    
-    font-size: 1.75em;
+    font-size: 0.75em;
 }
 
-h3 {
-    font-size: 1.5em;
+h3, p {
+    font-size: 0.60em;
     color: azure;
 }
 
 span {
     color: #0066cc;
-
 }
 
 
@@ -40,18 +40,22 @@ nav {
     padding: 50px 15px;
 }
 .pachi__nav-li{
-    display: inline-block;
+    display: block;
     text-transform: uppercase;
     text-decoration: none;
     font-size:  18px;
-    padding-left: 80px; 
+    padding-left: 10px; 
 }
+
+.pachi__nav-li a:hover { 
+    background-color: rgb(230, 126, 143);
+  }
 
 /* HEAD */
 
 .pachi__hello {
-    padding: 20px;
-    margin: 40px;
+    padding: 10px;
+    margin: 20px;
 }
 
 
@@ -63,8 +67,8 @@ nav {
     padding: 20px;
 }
 
-#about img {
-    border-radius: 50%;
+.about__img {
+    max-width: 300px;;
 }
 
 
@@ -94,11 +98,12 @@ nav {
     padding: 20px;
 }
 
-.social_media__li{
+.social_media__li {
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 40px; 
+    width: 40%;
+    
 }
 
 .social_media__icons {
@@ -108,33 +113,7 @@ nav {
     color: #fff;
 }
 
-/* MEDIA */
-@media only screen and (max-width: 360px) {
-    #projects {
-        max-width: 300px;
-    }
-    h1 {
-        font-size: 36px;
-    }
-    li {
-        display: block;
-        padding: 5px;
-    }
-    h1 {
-        font-size: 1.75em;
-        line-height: 2em;
-    }
-    
-    h2 {    
-        font-size: 1.5em;
-    }
-    
-    h3 {
-        font-size: 1em;
-    }
-    p{
-        font-size: 0.8em;
-    }
-          
+.projects_1, .projects_2, .projects_3  {
+    border: 1px solid #000; 
 }
 
