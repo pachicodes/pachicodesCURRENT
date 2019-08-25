@@ -38,11 +38,29 @@ a:hover {
   }
 
 
-/* Navegation */
+/* NAVEGATION*/
 nav {
-    float: right; 
-    padding: 50px 15px;
+    position: fixed;
+    background: pink;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    transform: translateX(100%);
 }
+
+nav.toggle {
+    transform: translateX(0);
+}
+
+.btn-toggle, .btn-close {
+    background: none;
+    border-radius: 4px;
+    border-color: pink;
+    position: fixed;
+    right: 40px;
+}
+
 .pachi__nav-li{
     
     text-transform: uppercase;
@@ -52,12 +70,10 @@ nav {
 }
 
 /* HEAD */
-
 .pachi__hello {
     padding: 10px;
     margin: 20px;
 }
-
 
 /* ABOUT*/
 #about {
@@ -71,9 +87,7 @@ nav {
     max-width: 300px;
 }
 
-
 /* PROJECTS */
-
 #projects {
    text-align: center;
    margin: 40px;
@@ -92,6 +106,7 @@ nav {
     font-size: 1em;
     font-family: 'Darker Grotesque', sans-serif;
 }
+
 #projects h1 {
     color: #0066cc;
     text-decoration: underline;
@@ -100,12 +115,9 @@ nav {
 
 #projects img {
     width: 30%;
-    padding: 10px;
 }
 
-
 /* FOOTER */
-
 #contact {
     background: #000;   
     color: azure;
@@ -117,13 +129,13 @@ nav {
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    width: 40%;
-    
+    width: 40%;    
 }
 
 .social_media__icons {
     padding-left: 0;
 }
+
 .email_me {
     color: #fff;
 }
