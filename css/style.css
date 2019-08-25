@@ -12,7 +12,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #0066cc;    
+    color: #00468b;    
 }
 
 h1 {
@@ -41,11 +41,11 @@ a:hover {
 /* NAVEGATION*/
 nav {
     position: fixed;
-    background: pink;
+    background: #fff;
     width: 100%;
     top: 0px;
     left: 0px;
-    height: 100vh;
+    height: 25vh;
     transform: translateX(100%);
 }
 
@@ -56,17 +56,16 @@ nav.toggle {
 .btn-toggle, .btn-close {
     background: none;
     border-radius: 4px;
-    border-color: pink;
+    border-color: #0066cc;
     position: fixed;
     right: 40px;
 }
 
-.pachi__nav-li{
-    
+.pachi__nav-li{    
     text-transform: uppercase;
     text-decoration: none;
     font-size:  18px;
-    padding-left: 10px; 
+    padding: 10px; 
 }
 
 /* HEAD */
@@ -154,6 +153,10 @@ nav.toggle {
     p, h3 {
         font-size: 1em;
         line-height: 1.5em;
+    }
+
+    nav {
+        float: right;
     }
 
     .pachi__nav-li {
