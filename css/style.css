@@ -26,7 +26,7 @@ h2 {
 
 h3, p {
     font-size: 0.60em;
-    color: azure;
+    color: #fff;
 }
 
 span {
@@ -139,42 +139,6 @@ nav.toggle {
     color: #fff;
 }
 
-.services {
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: auto; 
-}
-
-.services__title {
-    padding: 30px;
-}
-
-.services__contact {
-    background: #fff;
-    color: #000;
-    text-align: center;
-    padding: 20px;
-}
-
-.services__social {
-    background: #fff;
-    color: #000;
-    text-align: center;
-    margin: 40px;
-}
-
-.services__p, .services__mail {
-    color: #000;
-}
-
-.web {
-    margin: 0px;
-}
-.web__p {
-    margin: 20px;
-}
-
-
 @media (min-width: 1281px) {
     h1 {
         font-size: 2em;
@@ -216,12 +180,4 @@ nav.toggle {
         display: inline;
         padding: 40px;
     }
-
-    .web {
-        margin: 0px;
-    }
-    .web__p {
-        margin: 20px;
-    }
-    
   }
