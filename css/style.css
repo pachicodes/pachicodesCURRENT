@@ -75,7 +75,7 @@ nav.toggle {
 }
 
 /* ABOUT*/
-#about {
+#about, .services {
     background: #000;
     color: azure;
     text-align: center;
@@ -139,6 +139,41 @@ nav.toggle {
     color: #fff;
 }
 
+.services {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.services__title {
+    padding: 30px;
+}
+
+.services__contact {
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.services__social {
+    background: #fff;
+    color: #000;
+    text-align: center;
+    margin: 40px;
+}
+
+.services__p, .services__mail {
+    color: #000;
+}
+
+.web {
+    margin: 0px;
+}
+.web__p {
+    margin: 20px;
+}
+
 
 @media (min-width: 1281px) {
     h1 {
@@ -180,6 +215,13 @@ nav.toggle {
     .social_media__li {
         display: inline;
         padding: 40px;
+    }
+
+    .web {
+        margin: 0px;
+    }
+    .web__p {
+        margin: 20px;
     }
     
   }
